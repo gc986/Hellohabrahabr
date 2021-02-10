@@ -9,8 +9,7 @@ fun main(args: Array<String>) {
                 else
                     9869
 
-    println("http://localhost:$port") // печатаем в консоль адрес сервера
-    println("http://localhost:$port/hello")
+    println("try to open in web browser this http://localhost:$port/hello")
 
     Spark.port(port)
 
